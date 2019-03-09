@@ -1,0 +1,23 @@
+<!-- Disponibiliza um link para o conteúdo da página static -->
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Meu Site</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/estilo.css' %}">
+  </head>
+  <body>
+    <h1>Página Inicial</h1>
+
+    <p>Sistema desenvolvido por Matheus Ramos.</p>
+
+    <p>Tecnologias utilizadas: <br>
+      <img src="{% static 'img/django.png' %}" alt="">
+    </p>
+    <p>Astralis<br>
+      <img src="{% static 'img/mibr.png' %}" alt="">
+    </p>
+  </body>
+</html>
