@@ -6,7 +6,7 @@ from django.views.generic import TemplateView
 
 class PaginaInicialView(TemplateView):
     #Nome do arquivo que vai ser utilizado para renderisar esta página/método/classe
-    template_name = "inicial.html"
+    template_name = "inicio.html"
 
 class SobreInicialView(TemplateView):
     #Nome do arquivo que vai ser utilizado para renderisar esta página/método/classe
