@@ -12,7 +12,7 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
+  color: #black;
   border: 1px solid #64a19d;
 }
 
@@ -21,40 +21,40 @@
 }
 
 #mainNav .navbar-brand {
-  color: #161616;
+  color: #black;
   font-weight: 700;
   padding: .9rem 0;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(white, 80%);
+  color: black;
   outline: none;
-  background-color: transparent;
 }
 
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
-  background-color: transparent;
+  color: black;
 }
 
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 0;
+    color: black;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
+    background-color: #C8C8C8;
     -webkit-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: black;
   }
   #mainNav .nav-link {
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: black;
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
