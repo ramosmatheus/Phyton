@@ -1,0 +1,20 @@
+{% extends 'modelo.html' %}
+{% load static %}
+
+{% block sobre %}
+{{ block.super }}
+<!-- About Section -->
+<section id="about" class="about-section text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2 class="text-white mb-4">Olá meu nome é Matheus Ramos Cardoso</h2>
+        <p class="text-white-50">
+          Estou cursando o 3ºAno de Análise e Desenvolvimentos de Sistemas no Instituto Federal do Paraná - Campus Paranavaí
+        </p>
+      </div>
+    </div>
+    <img src="{% static 'img/ipad.png' %}" class="img-fluid" alt="">
+  </div>
+</section>
+{% endblock %}
