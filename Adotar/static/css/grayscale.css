@@ -1,8 +1,8 @@
 /*!
- * Start Bootstrap - Grayscale v5.0.5 (https://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
- */
+* Start Bootstrap - Grayscale v5.0.5 (https://startbootstrap.com/template-overviews/grayscale)
+* Copyright 2013-2019 Start Bootstrap
+* Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
+*/
 
 #mainNav {
   min-height: 56px;
@@ -92,8 +92,8 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-masthead.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/background.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -301,4 +301,20 @@ a:focus, a:hover {
 
 footer {
   padding: 5rem 0;
+}
+.roxo{
+  color: #993399;
+}
+
+
+/*Cor do icone dentro do botão, e definindo que quando o mouse passar por cima do botão ira ficar branco tbm*/
+.icon{
+  padding-top:10px;
+  text-align:center;
+  color: #FFFFFF;
+  width:40px;
+  height:40px;
+  background-color:#9932CC;
+  border-radius: 150px;
+
 }
