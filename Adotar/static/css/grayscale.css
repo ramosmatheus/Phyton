@@ -3,7 +3,6 @@
 * Copyright 2013-2019 Start Bootstrap
 * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
 */
-
 #mainNav {
   min-height: 56px;
   background-color: #fff;
@@ -46,39 +45,49 @@
     -webkit-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
   }
+
   #mainNav .navbar-brand {
     padding: .5rem 0;
     color: black;
   }
+
   #mainNav .nav-link {
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
     color: black;
   }
+
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
   }
+
   #mainNav .nav-link:active {
     color: white;
   }
+
   #mainNav.navbar-shrink {
     background-color: #fff;
   }
+
   #mainNav.navbar-shrink .navbar-brand {
     color: #161616;
   }
+
   #mainNav.navbar-shrink .nav-link {
     color: #161616;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
+
   #mainNav.navbar-shrink .nav-link:hover {
     color: #64a19d;
   }
+
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
+
   #mainNav.navbar-shrink .nav-link.active {
     color: #64a19d;
     outline: none;
@@ -127,11 +136,13 @@
     height: 100vh;
     padding: 0;
   }
+
   .masthead h1 {
     font-size: 6.5rem;
     line-height: 6.5rem;
     letter-spacing: 0.8rem;
   }
+
   .masthead h2 {
     max-width: 30rem;
     font-size: 1.25rem;
@@ -200,6 +211,7 @@
   .projects-section .project-text {
     padding: 5rem;
   }
+
   .projects-section .project-text hr {
     border-color: #64a19d;
     border-width: .25rem;
@@ -302,19 +314,18 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
-.roxo{
+
+.roxo {
   color: #993399;
 }
 
-
 /*Cor do icone dentro do botão, e definindo que quando o mouse passar por cima do botão ira ficar branco tbm*/
-.icon{
-  padding-top:10px;
-  text-align:center;
+.icon {
+  padding-top: 10px;
+  text-align: center;
   color: #FFFFFF;
-  width:40px;
-  height:40px;
-  background-color:#9932CC;
+  width: 40px;
+  height: 40px;
+  background-color: #9932CC;
   border-radius: 150px;
-
 }
