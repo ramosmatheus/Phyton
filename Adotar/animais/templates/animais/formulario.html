@@ -1,0 +1,29 @@
+{% extends 'animais/modelo.html' %}
+{% block corpo %}
+{% load static %}
+
+<div class="container">
+
+    <div class="row">
+        
+        <div class="col-lg">
+            <h3>Cadastro de XXX</h3>
+
+            <form method="post">
+                {% csrf_token %}
+        
+                {{ form.as_p }}
+        
+                <button type="submit" class="btn btn-success">
+                           Cadastrar
+                </button>
+        </form>
+        
+        </div>
+
+    </div>
+
+
+</div>
+
+{% endblock %}

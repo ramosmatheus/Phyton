@@ -10,4 +10,6 @@ urlpatterns = [
     path('sobre/', SobreInicialView.as_view(), name="sobre"),
     path('contato/', ContatoInicialView.as_view(), name="contato"),
     path('curriculum/', CurriculumView.as_view(), name="curriculum"),
+
+    path('cadastrar/estado', EstadoCreate.as_view(), name="formulario"),
 ]
